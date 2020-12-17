@@ -1,0 +1,17 @@
+{
+  "name": "marvel_characters",
+  "version": "1.0.0",
+  "description": "Consulta de personajes de Marvel a través de su API",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "marvel",
+    "characters",
+    "hero",
+    "comic"
+  ],
+  "author": "Javier Foster",
+  "license": "MIT"
+}
