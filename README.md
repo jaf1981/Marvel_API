@@ -3,7 +3,7 @@ Marvel API characters with Vainilla JS
 
 Using a timestamp, a public and a private key hash with md5 Algorithm to fetch data from Marvel's site through their API.
 
-I use Vainilla JS and bootstrap 4 to render the results in the browser.
+I used Vainilla JS and bootstrap 4 to render the results in the browser.
 
 By default you get the 20 first characters and then you are able to search characters by name that "starts with" anything that you write in the search input...
 
