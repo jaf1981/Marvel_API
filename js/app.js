@@ -8,7 +8,7 @@ const fetchCharacters = async () => {
     try {
         const ts = Date.now();
         const hash = md5(ts + privateKey + publicKey);
-        const URL = `http://gateway.marvel.com/v1/public/characters?ts=${ts}&apikey=${publicKey}&hash=${hash}`;
+        const URL = `https://gateway.marvel.com/v1/public/characters?ts=${ts}&apikey=${publicKey}&hash=${hash}`;
         const response = await fetch(URL);
         const { data: { results : characters } } = await response.json();
         return characters;
@@ -43,7 +43,7 @@ const searchCharacter = async () => {
         const hash = md5(ts + privateKey + publicKey);
         const name = search.value.trim();
         const hero = encodeURIComponent(name);
-        const URL = `http://gateway.marvel.com/v1/public/characters?nameStartsWith=${hero}&ts=${ts}&apikey=${publicKey}&hash=${hash}`;
+        const URL = `https://gateway.marvel.com/v1/public/characters?nameStartsWith=${hero}&ts=${ts}&apikey=${publicKey}&hash=${hash}`;
         const response = await fetch(URL);
         console.log(response)
         const { data: { results : characters } } = await response.json();
