@@ -11,4 +11,4 @@ You may then also "Delete" some of the characters once you get the results of yo
 
 Thanks Marvel for this and you can visit their site at https://www.marvel.com/characters or the developers site at https://developer.marvel.com/!
 
-Disclaimer: In production you wouldn't and shouldn't use your API keys from the frontend and you may want to use them from the backend for security reasons. In this case it is just a test and anyone that sign up on Marvel's site can get these type of key to make this kind of free of charge queries with Marvel's limitations according to their site terms of use and agreement.
+Disclaimer: In production you wouldn't and shouldn't use your API keys from the frontend and you may want to use them from the backend for security reasons. In this case it is just a test and anyone that signs up on Marvel's site can get these type of keys to make this kind of free of charge queries with Marvel's limitations according to their site terms of use and agreement.
